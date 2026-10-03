@@ -47,9 +47,13 @@ Thumbs.db
 *.jpg
 *.bmp
 
+# TTD 录制轨迹
+ttd_traces/
+*.run
+
 # 临时结果
+ecdlp_*_result.txt
 ecdlp_result.txt
-ecdlp_v2_result.txt
 serial.txt
 
 # 编译产物
