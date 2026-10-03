@@ -1,6 +1,6 @@
 # CTF 逆向工程題解教程
 
-> 逆向工程 CTF 題解合集 — 包含 KCTF2026 看雪靶場全 8 題 + Flare-On 4 全 12 題，附完整解題腳本與詳細分析
+> 逆向工程 CTF 題解合集 — 包含 KCTF2026 看雪靶場全 8 題 + Flare-On 4/5 全 24 題，附完整解題腳本與詳細分析
 
 ## 目錄
 
@@ -35,6 +35,25 @@
 | 12 | coolprogram | .NET + 多層加密 | `n3v3r_gunna_l3t_you_down_1987_4_ever@flare-on.com` |
 
 **[完整 Flare-On 4 題解](FlareOn/Fo4/writeup.md)**
+
+### Flare-On 5 / 2018 (12/12 ✅)
+
+| # | 題目 | 核心技術 | Flag |
+|---|------|----------|------|
+| 01 | MinesweeperChampionship | Java 反編譯 | `GoldenTicket2018@flare-on.com` |
+| 02 | UltimateMinesweeper | .NET 踩地雷暴力搜索 | `Ch3aters_Alw4ys_W1n@flare-on.com` |
+| 03 | FLEGGO | PE 資源解析 + XOR | `mor3_awes0m3_th4n_an_awes0me_p0ssum@flare-on.com` |
+| 04 | binstall | ConfuserEx 混淆 + DLL 注入 | `c0Mm4nD_inJ3c7ioN@flare-on.com` |
+| 05 | web2.0 | WebAssembly 逆向 | `wasm_rulez_js_droolz@flare-on.com` |
+| 06 | magic | 自修改 ELF + 666 輪約束 | `mag!iC_mUshr00ms_maY_h4ve_g!ven_uS_Santa_ClaUs@flare-on.com` |
+| 07 | WorldOfWarcraft | Heaven's Gate + 掛鉤 | `P0rt_Kn0ck1ng_0n_he4v3ns_d00r@flare-on.com` |
+| 08 | doogie | MBR 啟動扇區 + RTC | `R3_PhD@flare-on.com` |
+| 09 | leet_editr | VEH 異常解密 + RC4 | `scr1pt1ng_sl4ck1ng_and_h4ck1ng@flare-on.com` |
+| 10 | golf | Hypervisor + VMCALL + z3 | `We4r_ur_v1s0r_w1th_Fl4R3@flare-on.com` |
+| 11 | malware_skillz | DNS C2 + LSB 隱寫術 | `recover_these_messages_lost_in_the_colorful_bits@flare-on.com` |
+| 12 | suspicious_floppy | 嵌套 OISC 虛擬機 | `Av0cad0_Love_2018@flare-on.com` |
+
+**[完整 Flare-On 5 題解](FlareOn/Fo5/writeup.md)**
 
 ---
 
@@ -91,7 +110,10 @@ ctf-writeups/
 │       ├── keygen_cipher.py         # Feistel CBC
 │       └── writeup.md
 ├── FlareOn/
-│   └── Fo4/                         # Flare-On 4 (2017)
+│   ├── Fo4/                         # Flare-On 4 (2017)
+│   │   ├── writeup.md               # 全題解
+│   │   └── 01/ ~ 12/                # 每題求解腳本
+│   └── Fo5/                         # Flare-On 5 (2018)
 │       ├── writeup.md               # 全題解
 │       └── 01/ ~ 12/                # 每題求解腳本
 ├── docs/                            # 深度分析文件

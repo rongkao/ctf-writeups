@@ -51,6 +51,35 @@ Thumbs.db
 ttd_traces/
 *.run
 
+# FlareOn 5 題目原始文件
+FlareOn/Fo5/FlareOn5_Challenges/
+FlareOn/Fo5/04/public_html/
+FlareOn/Fo5/04/binstall.res
+FlareOn/Fo5/06/magic
+*.jar
+*.class
+*.cs
+*.mst.html
+*.svg
+*.ico
+*.wasm
+*.json
+*.img
+*.res
+*.css
+META-INF/
+
+# FlareOn 中間分析腳本（只保留 solve.py）
+FlareOn/Fo5/05/index.html
+FlareOn/Fo5/05/main.js
+FlareOn/Fo5/05/solve_wasm.js
+FlareOn/Fo5/06/analyze.py
+FlareOn/Fo5/07/analyze.py
+FlareOn/Fo5/07/disasm*.py
+FlareOn/Fo5/07/solve_attempt.py
+FlareOn/Fo5/07/verify_flag.py
+FlareOn/Fo5/08/disasm*.py
+
 # 临时结果
 ecdlp_*_result.txt
 ecdlp_result.txt
