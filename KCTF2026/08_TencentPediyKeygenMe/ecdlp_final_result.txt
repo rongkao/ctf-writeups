@@ -1,0 +1,8 @@
+Initializing Montgomery arithmetic...
+Montgomery OK.
+G verified on curve.
+n*G = O verified.
+
+ECDLP solver: 12 threads, Montgomery mul, r-adding walk
+p = 0xc564eef070e69193, n = 0xc564eef19a080b07
+  [T0] att 0: 2M iter, 348K/s    [T0] att 0: 4M iter, 352K/s    [T0] att 0: 6M iter, 356K/s    [T0] att 0: 8M iter, 371K/s    [T0] att 0: 10M iter, 381K/s    [T0] att 0: 12M iter, 386K/s    [T0] att 0: 14M iter, 391K/s    [T0] att 0: 16M iter, 392K/s    [T0] att 0: 18M iter, 392K/s    [T0] att 0: 20M iter, 392K/s    [T0] att 0: 22M iter, 393K/s    [T0] att 0: 24M iter, 392K/s    [T0] att 0: 26M iter, 392K/s    [T0] att 0: 28M iter, 391K/s    [T0] att 0: 30M iter, 391K/s    [T0] att 0: 32M iter, 391K/s    [T0] att 0: 34M iter, 391K/s    [T0] att 0: 36M iter, 391K/s    [T0] att 0: 38M iter, 391K/s    [T0] att 0: 40M iter, 391K/s    [T0] att 0: 42M iter, 391K/s    [T0] att 0: 44M iter, 392K/s    [T0] att 0: 46M iter, 390K/s    [T0] att 0: 48M iter, 385K/s    [T0] att 0: 50M iter, 381K/s    [T0] att 0: 52M iter, 377K/s    [T0] att 0: 54M iter, 372K/s    [T0] att 0: 56M iter, 369K/s    [T0] att 0: 58M iter, 366K/s    [T0] att 0: 60M iter, 363K/s  

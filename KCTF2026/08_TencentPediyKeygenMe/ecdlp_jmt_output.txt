@@ -1,0 +1,3 @@
+ECDLP: 12 threads, Jacobian r-adding Pollard rho (NR=32)
+p=0xc564eef070e69193 n=0xc564eef19a080b07
+  [T0] att 0: 50M (0.9M/s)    [T0] att 0: 100M (0.8M/s)    [T0] att 0: 150M (0.8M/s)    [T0] att 0: 200M (0.7M/s)    [T0] att 0: 250M (0.7M/s)    [T0] att 0: 300M (0.7M/s)    [T0] att 0: 350M (0.7M/s)    [T0] att 0: 400M (0.7M/s)    [T0] att 0: 450M (0.7M/s)    [T0] att 0: 500M (0.7M/s)    [T0] att 0: 550M (0.8M/s)    [T0] att 0: 600M (0.8M/s)  

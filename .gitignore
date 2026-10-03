@@ -1,0 +1,70 @@
+# 可执行文件和二进制
+*.exe
+*.dll
+*.bin
+*.dat
+*.run
+*.dump
+*.dmp
+*.o
+*.obj
+
+# 压缩包
+*.zip
+*.7z
+*.rar
+
+# 题目原始文件（太大不上传）
+*.apk
+*.hex
+*.pcap
+*.pkl
+
+# ELF 二进制（无后缀）
+KCTF2026/06_rev_babyrev/BabyRev
+KCTF2026/06_rev_babyrev/BabyRev_patched*
+KCTF2026/06_rev_babyrev/BabyRev_unpacked
+KCTF2026/01_rechall/rechall
+
+# macOS 残留
+__MACOSX/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 截图和图片
+*.png
+*.jpg
+*.bmp
+
+# 临时结果
+ecdlp_result.txt
+ecdlp_v2_result.txt
+serial.txt
+
+# 编译产物
+*.out
+*.pdb
+
+# 生成的文档（从 .md 生成）
+*.docx
+*.pdf
+
+# 日志
+fill_log*.txt
+interact_log*.txt
+
+# 内部工具目录
+.codegraph/
+.omo/
+.playwright-mcp/

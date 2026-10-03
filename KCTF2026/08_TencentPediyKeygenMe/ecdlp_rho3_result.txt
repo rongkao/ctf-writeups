@@ -1,0 +1,7 @@
+Curve OK. r-adding Pollard rho (NR=32, affine)...
+p = 0xc564eef070e69193, n = 0xc564eef19a080b07
+Walk table initialized.
+  attempt 0: 50M iter (181s, 0.3M/s)
+  attempt 0: 100M iter (369s, 0.3M/s)
+  attempt 0: 150M iter (554s, 0.3M/s)
+  attempt 0: 200M iter (762s, 0.3M/s)
