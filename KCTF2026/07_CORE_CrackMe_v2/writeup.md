@@ -1,20 +1,20 @@
 # 07 CORE Official CrackMe v2.0
 
-**难度**: 89 | **平台**: Windows PE32 | **结果**: 通用 Keygen
+**難度**: 89 | **平臺**: Windows PE32 | **結果**: 通用 Keygen
 
 ## 算法
 
-1. `hash_input = name + strrev(name) × 3`（注册表查询是烟雾弹）
-2. **魔改 MD5**：标准压缩函数 + off-by-one 长度字段 `(len+1)*8`
-3. 取 digest 前 12 字节 → 3 个 32 位比较目标 m0, m1, m2
-4. **GF(2) 64×64 线性变换**（双重）：可逆，高斯消元求逆矩阵
+1. `hash_input = name + strrev(name) × 3`（註冊表查詢是煙霧彈）
+2. **魔改 MD5**：標準壓縮函數 + off-by-one 長度字段 `(len+1)*8`
+3. 取 digest 前 12 字節 → 3 個 32 位比較目標 m0, m1, m2
+4. **GF(2) 64×64 線性變換**（雙重）：可逆，高斯消元求逆矩陣
 5. `code = "%x %x %x"`（空格分隔，sscanf `%lx%lx%lx` 解析）
 
-## 关键技术
+## 關鍵技術
 
-- **魔改 MD5 定位之旅**：所有 MD5 要素逐一标准 → Unicorn 仿真证明压缩函数标准 → 定位 off-by-one（先写 0x80 再测长度）
-- **GF(2) 矩阵求逆**：从 dumped.bin 提取 4 张 64 项表（T1A/T1B/T2A/T2B），构建 64×64 矩阵后高斯消元
-- **栈上地面真值法**：弹窗挂起时 ReadProcessMemory 全内存遍历，直接读出 MD5 期望值
+- **魔改 MD5 定位之旅**：所有 MD5 要素逐一標準 → Unicorn 仿真證明壓縮函數標準 → 定位 off-by-one（先寫 0x80 再測長度）
+- **GF(2) 矩陣求逆**：從 dumped.bin 提取 4 張 64 項表（T1A/T1B/T2A/T2B），構建 64×64 矩陣後高斯消元
+- **棧上地面真值法**：彈窗掛起時 ReadProcessMemory 全內存遍歷，直接讀出 MD5 期望值
 
 ## Keygen
 
@@ -26,8 +26,8 @@ def keygen(name):
     return f'{v1:x} {v2:x} {v3:x}'
 ```
 
-## 验证
+## 驗證
 
-真机弹窗: **"Man, you're good enough to join CORE!"** ✓
+真機彈窗: **"Man, you're good enough to join CORE!"** ✓
 
-详细分析见 [docs/writeup](../../docs/2026-09-21_CTF-KCTF-CORE-CrackMe-v2-writeup.md)
+詳細分析見 [docs/writeup](../../docs/2026-09-21_CTF-KCTF-CORE-CrackMe-v2-writeup.md)
