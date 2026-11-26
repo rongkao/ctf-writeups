@@ -1,3 +1,5 @@
+> **Notice:** Active updates moved to my dedicated security research account: https://github.com/yehanfang7-cmd/ctf-writeups
+
 # CTF 逆向工程題解教程
 
 > 逆向工程 CTF 題解合集 — 包含 KCTF2026 看雪靶場全 8 題 + Flare-On 4/5 全 24 題，附完整解題腳本與詳細分析
